@@ -1,0 +1,93 @@
+.chat-room-list {
+    display: inline-block;
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 16px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e2e2;
+    cursor: pointer;
+}
+
+.chat-room-list:last-of-type {
+    border-bottom: none;
+}
+
+.chat-room-list > div {
+    display: inline-block;
+}
+
+.chat-room-list .chat-no {
+    font-weight: 350;
+    font-size: 14px;
+    color: #797878;
+}
+
+.chat-room-list .chat-name {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.chat-room-list .chat-right {
+    color: #b2b2b2;
+    position: absolute;
+    right: 40px;
+}
+
+.chat-room-list .layui-icon-none {
+    display: inline-block;
+    width: 16px;
+}
+
+.container .operation {
+    margin-top: 10px;
+    float: right;
+    margin-right: 30px;
+}
+
+.top .user {
+    float: right;
+    margin-right: 15px;
+}
+
+.top .login-user {
+    color: #60b2e7 !important;
+    font-weight: 650;
+    text-decoration: underline;
+}
+
+.popup-form {
+    font-size: 14px;
+    padding: 10px 15px;
+}
+
+.popup-form .layui-form-label {
+    padding: 9px 0;
+    width: 60px;
+}
+
+.popup-form .layui-input-block {
+    margin-left: 70px;
+}
+
+.popup-form * {
+    box-sizing: unset;
+}
+
+.btn-thin {
+    height: 28px;
+    line-height: 28px;
+}
+
+.mr5 {
+    margin-right: 5px;
+}
+
+.pr20 {
+    padding-right: 20px;
+}
+
+.hide {
+    display: none;
+}

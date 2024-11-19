@@ -1,0 +1,7 @@
+# 服务器配置
+server:
+  port: 28766
+
+# websocket配置
+websocket:
+  host: 101.35.232.9
